@@ -69,7 +69,7 @@ kegok .st20{
     text-align: left;
     position: fixed;
     left: 5;
-    height: 670px;
+    height: 760px;
     background-color: rgba(66, 101, 46, .7);
 }
 
@@ -115,6 +115,7 @@ span {
 }
 .orderButton{
     align-content: center;
+    margin-left: 3em;
 }
 .orderButton, a {
     background-color: rgb(44, 68, 30);
@@ -126,6 +127,12 @@ span {
 #countbeer{
     font-size: 18px;
 }
+
+.kegsI{
+    font-size: 16px;
+    color: #daa520;
+}
+
 
 /* The queue */
 
@@ -219,14 +226,76 @@ font-size: 18px;
 
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1840px) {
+    
+        
+    #modal {
+        
+        grid-column: 1/2;
+        grid-row: 1;
+        border: 1px solid white;
+        width: 16%;
+        overflow: scroll;
+        color: white;
+        text-align: left;
+        position: fixed;
+        left: 5;
+        height: 950px;
+        background-color: rgba(66, 101, 46, .7);
+    }
+    
+    .modal-content {
+        border: 1px solid white;
+        grid-column: 1/2;
+        padding: 20px;
+        background-color: #42652E;
+        margin: auto;
+        
+        
+    }
+
+    #info_right{
+        align-self: flex-end;
+    }
     
         
 
         #info_right, h1, h3{
             padding-left: 10px;
+            font-size: 22px;
+            
          
             
          } 
 
+         #foo {
+            grid-column: 2/-2;
+            grid-row: 1;
+            width: 95%;
+           
+            
+        }
+
+        .orderButton{
+            align-content: center;
+            text-align: center;
+            
+        }
+        .orderButton, a {
+            background-color: rgb(44, 68, 30);
+            color: white;
+            width: 220px;
+            text-decoration: none;
+            
+        
+        }
+
+        .kegsI{
+            font-size: 16px;
+            color: #daa520;
+            
+        }
+
+       
+        
 }
