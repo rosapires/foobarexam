@@ -1,0 +1,232 @@
+
+body {
+    background-color: #42652E;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-family: century gothic;
+    color: white;
+    font-size: 12px;
+}
+
+            /* The SVG */
+
+#foo {
+    grid-column: 2/-2;
+    grid-row: 1;
+    width: 100%;
+    margin: auto;
+    
+}
+
+/* The kegs */
+
+#mylevel {
+    transition: height 2s ease;
+}
+
+.st4{
+    font-size: 10px;
+     fill: #daa520;
+   
+ }
+
+ #kegs:hover{
+
+    cursor: pointer;
+}
+
+/* KEG ANIMATION */
+.mylevel rect{
+    transition: all 2s ease;
+}
+.kegok .st19{
+    transition: all 2s ease;
+}
+kegok .st20{
+    transition: all 2s ease;
+}
+.kegreplace .st200{
+    transition: all 2s ease;
+}
+.kegreplace .st2001{
+    transition: all 2s ease;
+}
+
+
+    /* The Modal */
+
+.hide {
+    display: none;
+}
+
+#modal {
+    grid-column: 1/2;
+    grid-row: 1;
+    border: 1px solid white;
+    width: 16%;
+    overflow: scroll;
+    color: white;
+    text-align: left;
+    position: fixed;
+    left: 5;
+    height: 670px;
+    background-color: rgba(66, 101, 46, .7);
+}
+
+.modal-content {
+    border: 1px solid white;
+    grid-column: 1/2;
+    padding: 20px;
+    background-color: #42652E;
+    margin: auto;
+    
+}
+
+.modal-close {
+    cursor: pointer;
+}
+
+span {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.label {
+    width: 100%;
+}
+
+
+/* The div on the right */
+
+
+#info_right {
+    grid-column: -2/-1;
+    grid-row: 1;
+    overflow: scroll;
+    text-align: left;
+   margin-left: 10px;
+    border: 1px solid white;
+}
+
+#info_right, h1, h3{
+   padding-left: 10px;
+   
+}
+.orderButton{
+    align-content: center;
+}
+.orderButton, a {
+    background-color: rgb(44, 68, 30);
+    color: white;
+    width: 150px;
+    text-decoration: none;
+}
+
+#countbeer{
+    font-size: 18px;
+}
+
+/* The queue */
+
+#queue {
+    fill: #daa520;
+    font-size: 24px;
+}
+
+
+
+/* The Bartenders */
+
+.hideBartender {
+    opacity: .5;
+}
+
+
+
+/* The Graph */
+
+#graph {
+    position: absolute;
+}
+
+.graph .labels.x-labels {
+    text-anchor: middle;
+    fill: white;
+}
+
+.graph .labels.y-labels {
+    text-anchor: end;
+    fill: white;
+}
+
+.graph {
+    height: 500px;
+    width: 800px;
+}
+
+.graph .grid {
+    stroke: rgb(240, 224, 11);
+    stroke-dasharray: 0;
+    stroke-width: 4;
+}
+
+.labels {
+    font-size: 13px;
+}
+
+.label-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    fill: white;
+}
+
+.label-title-que {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    fill: white;
+}
+
+.data {
+    fill: red;
+    stroke-width: 1;
+}
+
+.graph {
+    overflow: hidden;
+}
+
+.draw {
+    overflow: hidden;
+    position: relative;
+}
+
+#textbox {
+    fill: white;
+    font-size: 16px;
+}
+
+/* .myqueue{
+color: #daa520;
+font-size: 18px;
+} */
+
+
+
+
+
+@media only screen and (min-width: 1080px) {
+    
+        
+
+        #info_right, h1, h3{
+            padding-left: 10px;
+         
+            
+         } 
+
+}
